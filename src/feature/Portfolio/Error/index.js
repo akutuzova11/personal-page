@@ -8,12 +8,12 @@ export const Error = () => {
       <Subwrapper>
         <Header>Ooops! Something went wrong</Header>
         <Paragraph>
-          Sorry, failed to load Github projects. You can check them directly on
-          Github
+          Sorry, failed to load GitHub projects. You can check them directly on
+          GitHub
         </Paragraph>
       </Subwrapper>
       <Button href={repositories} target="_blank" rel="noopener noreferrer">
-        Go to Github
+        Go to GitHub
       </Button>
     </Wrapper>
   );
