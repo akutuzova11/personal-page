@@ -12,7 +12,7 @@ export const Title = styled.h1`
   line-height: 1.21;
   margin-top: 12px;
   margin-bottom: 25px;
-  color: ${({ theme }) => theme.colors.textBlack};
+  color: ${({ theme }) => theme.colors.black};
 
   ${({ $footer }) =>
     $footer &&
@@ -45,7 +45,7 @@ export const Description = styled.p`
   ${({ $footer }) =>
     $footer &&
     css`
-      color: ${({ theme }) => theme.colors.textBlack};
+      color: ${({ theme }) => theme.colors.black};
     `};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
