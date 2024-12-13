@@ -13,7 +13,7 @@ export const Button = styled.button`
   font-size: 20px;
   line-height: 1.21;
   weigth: 600;
-  color: ${({ theme }) => theme.colors.textWhite};
+  color: ${({ theme }) => theme.colors.white};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
 margin-top: 24px;
