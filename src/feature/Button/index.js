@@ -1,26 +1,31 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const Button = styled.button`
   margin-top: 32px;
   height: 49px;
   width: 154px;
-  background-color: ${({ theme }) => theme.colors.buttonColor};
-  border-radius: 1px;
+  background-color: ${({ theme }) => theme.colors.hireButtonColor};
+  border: 1px solid ${({ theme }) => theme.colors.hireButtonBorder};
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: center;
+  gap: 16px;
   font-size: 20px;
   line-height: 1.21;
   weigth: 600;
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.hirebButtonText};
+  letter-spacing: 2px; 
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-margin-top: 24px;
-height: 46px;
-width: 138px;
-font-size: 18px;
-line-height: 1.21;
-}
-`;
+    margin-top: 24px;
+    height: 46px;
+    width: 138px;
+    font-size: 18px;
+    line-height: 1.21;
+  }
 
+   ${({ $gitHubRedirect }) => $gitHubRedirect && css`
+        width: 168px;
+    `};
+`;
