@@ -1,7 +1,6 @@
-import { ReactComponent as GitHubIcon } from "./images/Github_black.svg";
-import { ReactComponent as FacebookIcon } from "./images/Facebook_black.svg";
-import { ReactComponent as LinkedInIcon } from "./images/LinkedIN_black.svg";
-import { IconStyled } from "./feature/IconLinks";
+import { ReactComponent as GitHubIcon } from "./images/github.svg";
+import { ReactComponent as FacebookIcon } from "./images/facebook.svg";
+import { ReactComponent as LinkedInIcon } from "./images/linkedin.svg";
 
 export const socialMedia = [
   {
