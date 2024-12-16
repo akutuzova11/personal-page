@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/akutuzova11/personal-page/static/js/main.b6fc22a8.js",
-    "static/js/488.65e02108.chunk.js": "/akutuzova11/personal-page/static/js/488.65e02108.chunk.js",
-    "static/media/profilePic.png": "/akutuzova11/personal-page/static/media/profilePic.1ee9247207d1ac7e0ff0.png",
-    "static/media/sunDark.svg": "/akutuzova11/personal-page/static/media/sunDark.57bcb33749bc5392cd8017f73eef6484.svg",
-    "static/media/github.svg": "/akutuzova11/personal-page/static/media/github.09abe07d9aebd72f04b4118999889c9a.svg",
-    "static/media/sunLight.svg": "/akutuzova11/personal-page/static/media/sunLight.e3adea52b4e28ceb7b8dabc8fae26dc5.svg",
-    "index.html": "/akutuzova11/personal-page/index.html",
-    "static/media/linkedin.svg": "/akutuzova11/personal-page/static/media/linkedin.2c26b104242a1c77c13c1498fc1cd787.svg",
-    "static/media/errorDark.svg": "/akutuzova11/personal-page/static/media/errorDark.a713ca8752dc53fb52f84490e49aabe3.svg",
-    "static/media/errorLight.svg": "/akutuzova11/personal-page/static/media/errorLight.7f2e19775318ef8b5c11a90c8e584b6b.svg",
-    "static/media/envelope.svg": "/akutuzova11/personal-page/static/media/envelope.514461521cb8d76b55e16ac430346abb.svg",
-    "static/media/facebook.svg": "/akutuzova11/personal-page/static/media/facebook.14f43e9c25d473ecd49ceaf878f965b9.svg",
-    "main.b6fc22a8.js.map": "/akutuzova11/personal-page/static/js/main.b6fc22a8.js.map",
-    "488.65e02108.chunk.js.map": "/akutuzova11/personal-page/static/js/488.65e02108.chunk.js.map"
+    "main.js": "/personal-page/static/js/main.769b086b.js",
+    "static/js/488.65e02108.chunk.js": "/personal-page/static/js/488.65e02108.chunk.js",
+    "static/media/profilePic.png": "/personal-page/static/media/profilePic.1ee9247207d1ac7e0ff0.png",
+    "static/media/sunDark.svg": "/personal-page/static/media/sunDark.57bcb33749bc5392cd8017f73eef6484.svg",
+    "static/media/github.svg": "/personal-page/static/media/github.09abe07d9aebd72f04b4118999889c9a.svg",
+    "static/media/sunLight.svg": "/personal-page/static/media/sunLight.e3adea52b4e28ceb7b8dabc8fae26dc5.svg",
+    "index.html": "/personal-page/index.html",
+    "static/media/linkedin.svg": "/personal-page/static/media/linkedin.2c26b104242a1c77c13c1498fc1cd787.svg",
+    "static/media/errorDark.svg": "/personal-page/static/media/errorDark.a713ca8752dc53fb52f84490e49aabe3.svg",
+    "static/media/errorLight.svg": "/personal-page/static/media/errorLight.7f2e19775318ef8b5c11a90c8e584b6b.svg",
+    "static/media/envelope.svg": "/personal-page/static/media/envelope.514461521cb8d76b55e16ac430346abb.svg",
+    "static/media/facebook.svg": "/personal-page/static/media/facebook.14f43e9c25d473ecd49ceaf878f965b9.svg",
+    "main.769b086b.js.map": "/personal-page/static/js/main.769b086b.js.map",
+    "488.65e02108.chunk.js.map": "/personal-page/static/js/488.65e02108.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b6fc22a8.js"
+    "static/js/main.769b086b.js"
   ]
 }
