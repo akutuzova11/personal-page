@@ -1,0 +1,20 @@
+{
+  "short_name": "Personal Page",
+  "name": "Personal Page React App ",
+  "icons": [
+    {
+      "src": "letter-a.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "personal-page-og.png",
+      "type": "image/png",
+      "sizes": "1200x1200"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
