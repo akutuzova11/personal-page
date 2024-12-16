@@ -1,7 +1,7 @@
 import { socialMedia } from "../../socialMedia";
 import { Loading } from "./Loading";
 import { ProjectsList } from "./ProjectsList";
-import { Article, Wrapper, Header, Paragraph } from "./styled";
+import { Wrapper, Header, Paragraph } from "./styled";
 import { useRepositories } from "./useRepositories";
 import { Error } from "./Error";
 import { IconLink } from "../IconLinks";
@@ -27,8 +27,6 @@ export const Portfolio = () => {
     (socialMedia) => socialMedia.name === "GitHub"
   );
   return (
-    <>
-      <Article>
         <Wrapper>
           <IconLink
             $portfolio
@@ -41,7 +39,5 @@ export const Portfolio = () => {
           <Paragraph>My recent projects</Paragraph>
           {getState()}
         </Wrapper>
-      </Article>
-    </>
   );
 };
