@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Caption = styled.div`
   font-weight: 700;
   font-size: 12px;
-  color: ${({ theme }) => theme.colors.textSecondary};
+  color: ${({ theme }) => theme.colors.paragraphColor};
 `;
 
 export const Title = styled.h1`
@@ -12,7 +12,7 @@ export const Title = styled.h1`
   line-height: 1.21;
   margin-top: 12px;
   margin-bottom: 25px;
-  color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.title};
 
   ${({ $footer }) =>
     $footer &&
@@ -38,14 +38,15 @@ export const Title = styled.h1`
 export const Description = styled.p`
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.4;
-  margin-bottom: 56px;
-  color: ${({ theme }) => theme.colors.textSecondary};
+  line-height: 25px;
+  margin-bottom: 32px;
+  color: ${({ theme }) => theme.colors.paragraphColor};
 
   ${({ $footer }) =>
     $footer &&
     css`
-      color: ${({ theme }) => theme.colors.black};
+      color: ${({ theme }) => theme.colors.title};
+      width: 650px;
     `};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
