@@ -5,13 +5,13 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 88px;
 `;
 
 export const Subwrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 `;
 
 export const Header = styled.h3`
