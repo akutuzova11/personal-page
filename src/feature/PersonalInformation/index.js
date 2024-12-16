@@ -9,6 +9,6 @@ export const PersonalInformation = ({
   <>
     <Caption>{caption}</Caption>
     <Title $footer={isFooter}>{title}</Title>
-    <Description $footer>{description}</Description>
+    <Description $footer={isFooter}>{description}</Description>
   </>
 );
