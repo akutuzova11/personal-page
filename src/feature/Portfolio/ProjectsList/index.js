@@ -21,8 +21,9 @@ export const ProjectsList = ({ projects }) => (
               href={project.homepage}
               target="_blank"
               rel="noopener noreferrer"
-            />
-            {project.homepage}
+            >
+              {project.homepage}
+            </Link>
           </Paragraph>
           <Paragraph>
             Code:{" "}
@@ -30,8 +31,9 @@ export const ProjectsList = ({ projects }) => (
               href={project.html_url}
               target="_blank"
               rel="noopener noreferrer"
-            />
-            {project.html_url}
+            >
+              {project.html_url}
+            </Link>
           </Paragraph>
         </Wrapper>
       </Item>
