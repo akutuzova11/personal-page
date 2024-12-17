@@ -11,7 +11,7 @@ export const Footer = () => {
         <PersonalInformation
           caption="LET'S TALK"
           isFooter={true}
-          title={email}
+          title={<a href={`mailto:${email}`}>{email}</a>}
           description="Let’s make your ideas come to life! If you’re working on a website, dashboard, or mobile app and need some help, don’t hesitate to get in touch. I’d love to collaborate."
         />
         <Icons>
