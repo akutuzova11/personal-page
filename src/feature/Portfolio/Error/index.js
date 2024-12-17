@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { Button } from "../../Button";
-import { repositories } from "../repositories";
+import { repositories } from "../apiRepos";
 import { Wrapper, Subwrapper, Header, Paragraph, GitHubIcon } from "./styled";
 import { selectIsDark } from "../../ToggleMode/themeSlice";
 import { ReactComponent as ErrorIconLight } from "../../../images/errorLight.svg";
