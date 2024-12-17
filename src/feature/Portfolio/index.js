@@ -27,17 +27,17 @@ export const Portfolio = () => {
     (socialMedia) => socialMedia.name === "GitHub"
   );
   return (
-        <Wrapper>
-          <IconLink
-            $portfolio
-            href={gitHubSocial.url}
-            title={gitHubSocial.name}
-            target="_blank"
-            rel="noopener noreferrer"
-          ></IconLink>
-          <Header>Portfolio</Header>
-          <Paragraph>My recent projects</Paragraph>
-          {getState()}
-        </Wrapper>
+    <Wrapper>
+      <IconLink
+        $portfolio
+        href={gitHubSocial.url}
+        title={gitHubSocial.name}
+        target="_blank"
+        rel="noopener noreferrer"
+      ></IconLink>
+      <Header>Portfolio</Header>
+      <Paragraph>My recent projects</Paragraph>
+      {getState()}
+    </Wrapper>
   );
 };
