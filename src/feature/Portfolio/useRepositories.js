@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { repositories } from "./repositories";
+import { repositories } from "./apiRepos";
 
 export const useRepositories = () => {
   const [data, setData] = useState({
@@ -27,7 +27,7 @@ export const useRepositories = () => {
     };
     const timer = setTimeout(() => {
       getData();
-    }, 2000);
+    }, 1000);
     return () => clearTimeout(timer);
   }, [repositories]);
   return data;
