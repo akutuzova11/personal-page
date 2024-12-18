@@ -1,6 +1,6 @@
-import styled, {css} from "styled-components";
+import styled, { css } from "styled-components";
 
-export const Button = styled.button`
+export const Button = styled.a`
   margin-top: 32px;
   height: 49px;
   width: 154px;
@@ -15,7 +15,9 @@ export const Button = styled.button`
   line-height: 1.21;
   weigth: 600;
   color: ${({ theme }) => theme.colors.hirebButtonText};
-  letter-spacing: 2px; 
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     margin-top: 24px;
@@ -25,7 +27,9 @@ export const Button = styled.button`
     line-height: 1.21;
   }
 
-   ${({ $gitHubRedirect }) => $gitHubRedirect && css`
-        width: 168px;
+  ${({ $gitHubRedirect }) =>
+    $gitHubRedirect &&
+    css`
+      width: 168px;
     `};
 `;
