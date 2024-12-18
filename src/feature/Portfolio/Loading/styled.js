@@ -11,11 +11,17 @@ export const Paragraph = styled.p`
   letter-spacing: 1px;
   margin-top: 88px;
   margin-bottom: 48px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 16px;
+    margin-top: 48px;
+  }
 `;
 
 export const RotatingIcon = styled.div`
   height: 160px;
   width: 160px;
+  margin: 0 auto;
 
   animation: 1s linear normal infinite rotation;
 
@@ -27,16 +33,30 @@ export const RotatingIcon = styled.div`
       transform: rotate(360deg);
     }
   }
+
+@media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    height: 100px; /* Decreased size for mobile */
+    width: 100px;
+  }
+
 `;
 
-export const LoadingIconDark = styled(IconDark)``;
+export const LoadingIconDark = styled(IconDark)`
+ @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    height: 100px; /* Decrease SVG size for mobile */
+    width: 100px;
+  }
+    `;
 
 export const LoadingIconLight = styled(IconLight)`
-
-`;
+ @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    height: 100px; /* Decrease SVG size for mobile */
+    width: 100px;
+  }
+    `;
 
 export const Wrapper = styled.div`
   max-width: 475px;
   margin: auto;
   text-align: center;
-`
+`;

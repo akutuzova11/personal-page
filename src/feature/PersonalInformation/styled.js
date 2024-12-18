@@ -4,6 +4,10 @@ export const Caption = styled.div`
   font-weight: 700;
   font-size: 12px;
   color: ${({ theme }) => theme.colors.paragraphColor};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    line-height: 1.3;
+  }
 `;
 
 export const Title = styled.h1`
@@ -22,16 +26,27 @@ export const Title = styled.h1`
     `}
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    font-size: 22px;
-    margin-top: 8px;
+  font-size: 22px;
+  line-height: 1.21;
+  margin-top: 8px;
     margin-bottom: 16px;
 
-    ${({ $footer }) =>
-      $footer &&
-      css`
-        font-size: 18px;
-        margin: 12px 0;
-      `}
+  ${({ $footer }) =>
+    $footer &&
+    css`
+      font-size: 18px;
+      margin: 12px 0;
+    `}
+}
+
+    a {
+    text-decoration: none; 
+    color: ${({ theme }) => theme.colors.title}; 
+    transition: color 0.3s; /* Smooth transition on hover */
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 22px;
+    
   }
 `;
 
@@ -39,19 +54,26 @@ export const Description = styled.p`
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
-  margin-bottom: 32px;
+  line-height: 1.4;
   color: ${({ theme }) => theme.colors.paragraphColor};
 
   ${({ $footer }) =>
     $footer &&
     css`
       color: ${({ theme }) => theme.colors.title};
-      width: 650px;
+      max-width: 650px;
+      margin-bottom: 56px;
+      line-height: 1.4;
     `};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 17px;
-    line-height: 1.4;
-    margin-bottom: 40px;
+
+    ${({ $footer }) =>
+      $footer &&
+      css`
+        font-size: 14px;
+        margin-bottom: 40px;
+      `};
   }
 `;

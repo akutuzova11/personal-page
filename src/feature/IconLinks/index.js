@@ -10,8 +10,24 @@ export const IconStyled = styled.div`
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
   path {
     fill: ${({ theme }) => theme.colors.footerIconColor};
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    width: 32px;
+    height: 32px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
   }
 `;
 
@@ -24,8 +40,23 @@ export const PortfolioLink = styled.a`
   border-radius: 50%;
   transition: background-color 0.3s;
 
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
   svg path {
     fill: ${({ theme }) => theme.colors.portfolioIconColor};
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    width: 32px;
+    height: 32px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
   }
 `;
 

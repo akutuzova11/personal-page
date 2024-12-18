@@ -1,30 +1,39 @@
 import styled from "styled-components";
 
 export const SectionStyled = styled.section`
-  margin-top: 72px;
-  margin-bottom: 72px;
+  padding: 32px;
   background-color: ${({ theme }) => theme.colors.sectionBackground};
-  width: 1216px;
+  max-width: 1216px;
   border-radius: 4px;
-  padding-bottom: 32px;
+  margin: 0 auto 72px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    padding: 16px;
+    margin: 0 auto 48px;
+  }
 `;
 
 export const Header = styled.h2`
   font-weigth: 900;
-  color: ${({theme})=>theme.colors.sectionHeader};
+  color: ${({ theme }) => theme.colors.sectionHeader};
   font-size: 30px;
   line-height: 1.21;
-  letter-spacing: 2px;
-  margin-left: 32px;
-  padding-top: 32px;
-  margin-bottom: 0;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 18px;
+  }
 `;
 
 export const Divider = styled.div`
-  width: 95%;
+  width: 100%;
   height: 1px;
   background-color: #d1d5da4d;
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 32px;
+  margin: 15px auto 32px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    margin-top: 12px;
+  }
 `;

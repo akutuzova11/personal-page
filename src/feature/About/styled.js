@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutStyled = styled.header`
-max-width: 1089px;
+
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 72px;
@@ -14,8 +14,7 @@ max-width: 1089px;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    margin-top: -25px;
-    margin-bottom: 73px;
+    margin-top: -20px;
   }
 `;
 
@@ -25,9 +24,10 @@ export const Image = styled.img`
   border-radius: 50%;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    width: 128px;
-    height: 128px;
+    width: 132px;
+    height: 132px;
     display: flex;
     align-self: start;
+
   }
 `;
