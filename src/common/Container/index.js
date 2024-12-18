@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   max-width: 1216px;
-  margin: 119px auto 109px auto;
+  margin: 119px 109px;
   word-wrap: normal;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
