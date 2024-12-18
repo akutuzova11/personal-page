@@ -11,6 +11,12 @@ export const List = styled.ul`
   justify-content: center;
   align-items: stretch;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     display: flex;
     flex-direction: column;
@@ -33,6 +39,10 @@ export const Item = styled.li`
   height: 100%;
   flex-grow: 1;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    max-width:100%;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     padding: 24px;
   }
@@ -45,6 +55,10 @@ export const Header = styled.h3`
   letter-spacing: 1px;
   color: ${({ theme }) => theme.colors.portfolioHeader};
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 20px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 16px;
@@ -59,6 +73,10 @@ export const Description = styled.p`
   letter-spacing: 1px;
   color: ${({ theme }) => theme.colors.portfolioParagraph};
   text-align: justify;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 16px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 14px;
@@ -79,6 +97,10 @@ export const Paragraph = styled.p`
   line-height: 1.21;
   letter-spacing: 1px;
   color: ${({ theme }) => theme.colors.portfolioParagraph};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 16px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 14px;

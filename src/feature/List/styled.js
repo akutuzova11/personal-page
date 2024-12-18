@@ -9,12 +9,17 @@ export const ListStyled = styled.ul`
   font-weight: 400;
   margin: 0 auto; 
   max-width: 100%;
+  padding: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 16px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     display: flex;
     flex-direction: column;
     font-size: 14px;
-    padding: 0;
   }
 `;
 

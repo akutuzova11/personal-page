@@ -25,6 +25,16 @@ export const Title = styled.h1`
       margin: 24px 0;
     `}
 
+     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+  font-size: 30px;
+
+  ${({ $footer }) =>
+    $footer &&
+    css`
+      font-size: 22px;
+    `}
+}
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
   font-size: 22px;
   line-height: 1.21;
@@ -65,6 +75,17 @@ export const Description = styled.p`
       margin-bottom: 56px;
       line-height: 1.4;
     `};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 19px;
+
+    ${({ $footer }) =>
+      $footer &&
+      css`
+        font-size: 16px;
+        margin-bottom: 40px;
+      `};
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 17px;

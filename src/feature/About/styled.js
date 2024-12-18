@@ -9,13 +9,15 @@ export const AboutStyled = styled.header`
   margin-top: -30px;
   margin-bottom: 73px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
     margin-top: -20px;
   }
+
+  
 `;
 
 export const Image = styled.img`
@@ -23,11 +25,16 @@ export const Image = styled.img`
   max-height: 384px;
   border-radius: 50%;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    width: 132px;
-    height: 132px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    width: 256px;
+    height: 256px;
     display: flex;
     align-self: start;
 
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    width: 132px;
+    height: 132px;
   }
 `;

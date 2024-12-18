@@ -22,6 +22,10 @@ export const Header = styled.h2`
   padding: 0;
   margin: 0;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 26px;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 18px;
   }
