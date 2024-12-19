@@ -11,21 +11,18 @@ export const Portfolio = () => {
 
   const getState = () => {
     if (data.state === "loading") {
-      return (
-        <div>
-          {" "}
-          <Loading />
-        </div>
-      );
+      return <Loading />;
     } else if (data.state === "success") {
       return <ProjectsList projects={data.repositoriesData} />;
     } else if (data.state === "error") {
       return <Error />;
     }
   };
+
   const gitHubSocial = socialMedia.find(
     (socialMedia) => socialMedia.name === "GitHub"
   );
+
   return (
     <Wrapper>
       <IconLink
