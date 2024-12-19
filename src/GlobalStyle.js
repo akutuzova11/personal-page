@@ -10,10 +10,8 @@ box-sizing: inherit;
 }
 
 body{
-background-color: ${({ theme }) => theme.colors.background};
-font-family: ${({ theme }) => theme.fonts.main};
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+ background-color: ${({ theme }) => theme.colors.background};
+ transition: background 0.8s;
+ font-family: ${({ theme }) => theme.fonts.main};
 }
 `;
