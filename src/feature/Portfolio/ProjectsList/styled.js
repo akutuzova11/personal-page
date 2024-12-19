@@ -113,7 +113,7 @@ export const Paragraph = styled.p`
 export const Link = styled.a`
   color: ${({ theme }) => theme.colors.portfolioLink};
   display: inline;
-  word-break: break-all;
+  word-break: break-word;
   text-decoration: none;
   border-bottom: 1px solid ${({ theme }) => theme.colors.portfolioLinkBorder};
 
