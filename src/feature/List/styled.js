@@ -7,7 +7,7 @@ export const ListStyled = styled.ul`
   row-gap: 8px;
   font-size: 18px;
   font-weight: 400;
-  margin: 0 auto; 
+  margin: 0 auto;
   max-width: 100%;
   padding: 0;
 
@@ -46,8 +46,8 @@ export const Item = styled.li`
     border-radius: 50%;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    height: 6px;
-    width: 6px;
-  }
+      height: 6px;
+      width: 6px;
+    }
   }
 `;
