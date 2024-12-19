@@ -1,37 +1,79 @@
-export const themeLight = {
-  colors: {
-    background: "#FBFBFE",
-    textSecondary: "#6E7E91",
-    black: "#252525",
-    white: "#FFFFFF",
-    buttonColor: "#0366D6",
-    colorActive: "#2188FF",
-  },
-
+const commonTheme = {
   fonts: {
     main: "'Inter', sans-serif",
   },
-
   breakpoints: {
     mobile: 767,
+    tablet: 1206,
+  },
+};
+
+export const themeLight = {
+  ...commonTheme,
+  colors: {
+    background: "#FBFBFE",
+    buttonActiveShadow: "#14462033",
+    buttonHoverShadow: "#8CC2FF",
+    dividerColor: "#D1D5DA4D",
+    emailHover: "#0366D6",
+    footerIconColor: "#252525",
+    hireButtonBorder: "#0366D6",
+    hireButtonColor: "#0366D6",
+    hirebButtonText: "#FFFFFF",
+    iconHover: "#0366D6",
+    linkHover: "#0366D6",
+    loadingText: "#252525",
+    modeButton: "#E5E5E5",
+    modeButtonBorder: "#6E7E91",
+    modeRound: "#6E7E91",
+    paragraphColor: "#6E7E91",
+    portfolioBackground: "#FFFFFF",
+    portfolioBorder: "#D1D5DA4D",
+    portfolioBorderHover: "#0366D633",
+    portfolioHeader: "#0366D6",
+    portfolioIconColor: "#0366D6",
+    portfolioLink: "#0366D6",
+    portfolioLinkBorder: "#C1D3E9",
+    portfolioParagraph: "#6E7E91",
+    portfolioShadow: "#090A3308",
+    sectionBackground: "#FFFFFF",
+    sectionDot: "#0366d6",
+    sectionHeader: "#252525",
+    title: "#252525",
   },
 };
 
 export const themeDark = {
+  ...commonTheme,
   colors: {
-    background: "#FBFBFE",
-    textSecondary: "#6E7E91",
-    black: "#252525",
-    white: "#FFFFFF",
-    buttonColor: "#0366D6",
-    colorActive: "#2188FF",
-  },
-
-  fonts: {
-    main: "'Inter', sans-serif",
-  },
-
-  breakpoints: {
-    mobile: 767,
+    background: "#252525",
+    buttonActiveShadow: "#14462033",
+    buttonHoverShadow: "#6D93BE",
+    dividerColor: "#D1D5DA1A",
+    emailHover: "#2188FF",
+    footerIconColor: "#FFFFFF",
+    hireButtonBorder: "#2188FF",
+    hireButtonColor: "#2188FF",
+    hirebButtonText: "#FFFFFF",
+    iconHover: "#2188FF",
+    linkHover: "#2188FF",
+    loadingText: "#FFFFFF",
+    modeButton: "#6E6E6E",
+    modeButtonBorder: "#FFFFFF",
+    modeRound: "#FFFFFF",
+    paragraphColor: "#FFFFFF",
+    portfolioBackground: "#363636B8",
+    portfolioBorder: "#D1D5DA1A",
+    portfolioBorderHover: "#0366D680",
+    portfolioHeader: "#FFFFFF",
+    portfolioIconColor: "#2188FF",
+    portfolioLink: "#2188FF",
+    portfolioLinkBorder: "#2C5C92",
+    portfolioParagraph: "#FFFFFF",
+    portfolioShadow: "#090A3308",
+    sectionBackground: "#363636B8",
+    sectionDot: "#2188FF",
+    sectionHeader: "#FFFFFF",
+    title: "#FFFFFF",
   },
 };
