@@ -4,10 +4,7 @@ export const Caption = styled.div`
   font-weight: 700;
   font-size: 12px;
   color: ${({ theme }) => theme.colors.paragraphColor};
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    line-height: 1.3;
-  }
+  line-height: 1.3;
 `;
 
 export const Title = styled.h1`
@@ -25,42 +22,42 @@ export const Title = styled.h1`
       margin: 24px 0;
     `}
 
-     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-  font-size: 30px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 30px;
 
-  ${({ $footer }) =>
-    $footer &&
-    css`
-      font-size: 22px;
-    `}
-}
+    ${({ $footer }) =>
+      $footer &&
+      css`
+        font-size: 22px;
+      `}
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-  font-size: 22px;
-  line-height: 1.21;
-  margin-top: 8px;
+    font-size: 22px;
+    line-height: 1.21;
+    margin-top: 8px;
     margin-bottom: 16px;
 
-  ${({ $footer }) =>
-    $footer &&
-    css`
-      font-size: 18px;
-      margin: 12px 0;
-    `}
-}
+    ${({ $footer }) =>
+      $footer &&
+      css`
+        font-size: 18px;
+        margin: 12px 0;
+      `}
+  }
 
-    a {
-    text-decoration: none; 
-    color: ${({ theme }) => theme.colors.title}; 
-    transition: color 0.5s; 
-    
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.title};
+    transition: color 0.5s;
+
     &:hover {
       color: ${({ theme }) => theme.colors.emailHover};
     }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    font-size: 22px;
-    
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+      font-size: 22px;
+    }
   }
 `;
 
