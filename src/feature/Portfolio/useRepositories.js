@@ -30,7 +30,7 @@ export const useRepositories = () => {
       getData();
     }, 1000);
     return () => clearTimeout(timer);
-  }, [repositories]);
+  }, []);
 
   return data;
 };
