@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const AboutStyled = styled.header`
-
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 72px;
@@ -16,8 +15,6 @@ export const AboutStyled = styled.header`
     gap: 16px;
     margin-top: -20px;
   }
-
-  
 `;
 
 export const Image = styled.img`
@@ -30,7 +27,6 @@ export const Image = styled.img`
     height: 256px;
     display: flex;
     align-self: start;
-
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
