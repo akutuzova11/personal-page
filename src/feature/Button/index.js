@@ -13,7 +13,7 @@ export const Button = styled.a`
   gap: 16px;
   font-size: 20px;
   line-height: 1.21;
-  weigth: 600;
+  font-weight: 600;
   color: ${({ theme }) => theme.colors.hirebButtonText};
   letter-spacing: 2px;
   cursor: pointer;
