@@ -1,3 +1,75 @@
+# Personal Homepage
+
+Welcome to my personal homepage, built with React. 
+This project showcases my technical skills and offers a functional, responsive website where you can explore my work, skills, and contact details.
+
+&nbsp; 
+![](https://github.com/akutuzova11/personal-page/blob/main/readmi%20gif.gif)
+
+## Demo
+
+https://akutuzova11.github.io/personal-page/
+
+## Features
+
+👤 **About Me**: A section featuring my profile photo and a brief description.
+
+💻 **Skills**: A list of my current skills.
+
+🎯 **Goals**: Technologies I plan to learn next.
+
+📚 **Portfolio**: Projects fetched from GitHub API.
+
+📲 **Contact**: Social media links and email.
+
+📱 **Responsive Design**: Optimized for all devices.
+
+🌙 **Theme Toggle**: Choose between light and dark modes.
+
+## Built with
+
+### Languages & Libraries
+- **HTML**
+- **CSS**
+- **JavaScript (ES6+)**
+- **JSX**
+- **React**
+
+### React Features
+- **React Hooks:**
+  - `useState`
+  - `useEffect`
+  - `useMemo`
+- **Custom Hooks:**
+  - `useRepositories`
+
+### State Management
+- **Redux Toolkit:** centralized and efficient state management:
+  - `createSlice`
+  - `store`
+  - `useDispatch`
+  - `useSelector`
+ 
+### Styling
+- **Styled Components:**
+  - `GlobalStyle`
+  - `Theme`
+- **Normalize CSS:** to standardize styles across browsers
+
+### Layout & Responsiveness
+- **CSS Layout Techniques:**
+  - Grid
+  - Flexbox
+- **Responsive Design:**
+  - Media Queries
+
+### Additional Features
+- **Immutability** practices to ensure state consistency
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, feature requests, or bug reports, please feel free to open an issue or submit a pull request.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +111,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+For more detailed documentation on Create React App, see the [official guide](https://create-react-app.dev/docs/getting-started/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
