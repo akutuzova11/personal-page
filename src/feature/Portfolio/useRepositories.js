@@ -8,6 +8,7 @@ export const useRepositories = () => {
     repositoriesData: [],
     error: null,
   });
+
   useEffect(() => {
     const getData = async () => {
       try {
@@ -30,5 +31,6 @@ export const useRepositories = () => {
     }, 1000);
     return () => clearTimeout(timer);
   }, [repositories]);
+
   return data;
 };
