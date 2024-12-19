@@ -24,15 +24,9 @@ export const IconStyled = styled.div`
     }
   }
 
-
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     width: 32px;
     height: 32px;
-
-    svg {
-      width: 100%;
-      height: 100%;
-    }
   }
 `;
 
@@ -57,11 +51,6 @@ export const PortfolioLink = styled.a`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     width: 32px;
     height: 32px;
-
-    svg {
-      width: 100%;
-      height: 100%;
-    }
   }
 `;
 
