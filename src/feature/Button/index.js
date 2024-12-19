@@ -15,7 +15,7 @@ export const Button = styled.a`
   line-height: 1.21;
   weigth: 600;
   color: ${({ theme }) => theme.colors.hirebButtonText};
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   cursor: pointer;
   text-decoration: none;
 
@@ -24,7 +24,8 @@ export const Button = styled.a`
   }
 
   &:active {
-    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.colors.buttonActiveShadow} inset;
+    box-shadow: 0px 2px 0px 0px
+      ${({ theme }) => theme.colors.buttonActiveShadow} inset;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
@@ -32,7 +33,6 @@ export const Button = styled.a`
     height: 46px;
     width: 138px;
     font-size: 18px;
-    line-height: 1.21;
   }
 
   ${({ $gitHubRedirect }) =>
