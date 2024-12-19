@@ -12,6 +12,11 @@ export const Paragraph = styled.p`
   margin-top: 88px;
   margin-bottom: 48px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 18px;
+    margin-top: 48px;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 16px;
     margin-top: 48px;
@@ -34,26 +39,40 @@ export const RotatingIcon = styled.div`
     }
   }
 
-@media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    height: 100px; /* Decreased size for mobile */
-    width: 100px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    height: 130px;
+    width: 130px;
   }
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    height: 100px;
+    width: 100px;
+  }
 `;
 
 export const LoadingIconDark = styled(IconDark)`
- @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    height: 100px; /* Decrease SVG size for mobile */
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    height: 130px;
+    width: 130px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    height: 100px;
     width: 100px;
   }
-    `;
+`;
 
 export const LoadingIconLight = styled(IconLight)`
- @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    height: 100px; /* Decrease SVG size for mobile */
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    height: 130px;
+    width: 130px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    height: 100px;
     width: 100px;
   }
-    `;
+`;
 
 export const Wrapper = styled.div`
   max-width: 475px;

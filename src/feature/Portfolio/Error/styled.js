@@ -29,6 +29,10 @@ export const Header = styled.h3`
   margin-top: 16px;
   margin-bottom: 32px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 20px;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 18px;
   }
@@ -41,6 +45,10 @@ export const Paragraph = styled.p`
   line-height: 1.21;
   letter-spacing: 1px;
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+    font-size: 16px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 14px;
