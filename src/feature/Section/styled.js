@@ -18,7 +18,7 @@ export const Header = styled.h2`
   color: ${({ theme }) => theme.colors.sectionHeader};
   font-size: 30px;
   line-height: 1.21;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   padding: 0;
   margin: 0;
 
