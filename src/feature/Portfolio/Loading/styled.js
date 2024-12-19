@@ -7,7 +7,7 @@ export const Paragraph = styled.p`
   font-weight: 400;
   color: ${({ theme }) => theme.colors.loadingText};
   line-height: 1.4;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   margin-top: 88px;
   margin-bottom: 48px;
 

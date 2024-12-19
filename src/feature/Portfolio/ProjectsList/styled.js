@@ -55,7 +55,7 @@ export const Header = styled.h3`
   font-size: 24px;
   font-weight: 700;
   line-height: 1.21;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.colors.portfolioHeader};
   margin: 0;
 
@@ -73,7 +73,7 @@ export const Description = styled.p`
   font-size: 18px;
   font-weight: 400;
   line-height: 1.21;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.colors.portfolioParagraph};
   text-align: justify;
 
@@ -98,7 +98,7 @@ export const Paragraph = styled.p`
   font-size: 18px;
   font-weight: 400;
   line-height: 1.21;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.colors.portfolioParagraph};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {

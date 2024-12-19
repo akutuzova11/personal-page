@@ -25,7 +25,7 @@ export const Header = styled.h3`
   font-size: 24px;
   font-weight: 700;
   line-height: 1.21;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   margin-top: 16px;
   margin-bottom: 32px;
 
@@ -43,7 +43,7 @@ export const Paragraph = styled.p`
   font-size: 20px;
   font-weight: 400;
   line-height: 1.21;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {

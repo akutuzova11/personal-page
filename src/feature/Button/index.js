@@ -15,7 +15,7 @@ export const Button = styled.a`
   line-height: 1.21;
   font-weight: 600;
   color: ${({ theme }) => theme.colors.hirebButtonText};
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   cursor: pointer;
   text-decoration: none;
 
