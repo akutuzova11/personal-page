@@ -52,7 +52,11 @@ export const Title = styled.h1`
     a {
     text-decoration: none; 
     color: ${({ theme }) => theme.colors.title}; 
-    transition: color 0.3s; /* Smooth transition on hover */
+    transition: color 0.5s; 
+    
+    &:hover {
+      color: ${({ theme }) => theme.colors.emailHover};
+    }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 22px;
@@ -76,7 +80,7 @@ export const Description = styled.p`
       line-height: 1.4;
     `};
 
-    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
     font-size: 19px;
 
     ${({ $footer }) =>

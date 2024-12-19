@@ -28,8 +28,7 @@ export const Item = styled.li`
   background-color: ${({ theme }) => theme.colors.portfolioBackground};
   border-radius: 4px;
   border: 6px solid ${({ theme }) => theme.colors.portfolioBorder};
-  box-shadow: 0px 16px 58px 0px #090a3308;
-  box-shadow: 0px -2px 50px 0px #090a3305;
+  box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.colors.portfolioShadow};
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -39,8 +38,12 @@ export const Item = styled.li`
   height: 100%;
   flex-grow: 1;
 
+  &:hover {
+    border: 6px solid ${({ theme }) => theme.colors.portfolioBorderHover};
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-    max-width:100%;
+    max-width: 100%;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
@@ -113,4 +116,8 @@ export const Link = styled.a`
   word-break: break-all;
   text-decoration: none;
   border-bottom: 1px solid ${({ theme }) => theme.colors.portfolioLinkBorder};
+
+  &:hover {
+    text-decoration-color: ${({ theme }) => theme.colors.linkHover};
+  }
 `;

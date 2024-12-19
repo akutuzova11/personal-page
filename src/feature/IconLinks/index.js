@@ -18,7 +18,12 @@ export const IconStyled = styled.div`
 
   path {
     fill: ${({ theme }) => theme.colors.footerIconColor};
+
+    &:hover {
+      fill: ${({ theme }) => theme.colors.iconHover};
+    }
   }
+
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     width: 32px;

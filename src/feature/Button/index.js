@@ -19,6 +19,14 @@ export const Button = styled.a`
   cursor: pointer;
   text-decoration: none;
 
+  &:hover {
+    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.buttonHoverShadow};
+  }
+
+  &:active {
+    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.colors.buttonActiveShadow} inset;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     margin-top: 24px;
     height: 46px;
