@@ -34,7 +34,7 @@ export const Header = styled.h2`
 export const Divider = styled.div`
   width: 100%;
   height: 1px;
-  background-color: #d1d5da4d;
+  background-color: ${({ theme }) => theme.colors.dividerColor};
   margin: 15px auto 32px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
