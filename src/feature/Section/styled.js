@@ -14,7 +14,7 @@ export const SectionStyled = styled.section`
 `;
 
 export const Header = styled.h2`
-  font-weigth: 900;
+  font-weight: 900;
   color: ${({ theme }) => theme.colors.sectionHeader};
   font-size: 30px;
   line-height: 1.21;
