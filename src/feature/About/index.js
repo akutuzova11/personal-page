@@ -15,7 +15,7 @@ export const About = () => (
         title="Angelina Kutuzova"
         description="👩🏻‍💻🚀 With a solid background in Customer Success and a growing expertise in frontend development, I’m excited to bring my skills to new challenges. I’m currently looking for opportunities to contribute to innovative web projects."
       />
-      <Button href={`mailto:${email}`}>
+      <Button href={`mailto:${email}`} aria-label="Hire me via email">
         <Envelope />
         Hire Me
       </Button>
