@@ -1,5 +1,5 @@
-import axios from "axios";
 import { useState, useEffect } from "react";
+import { apiClient } from "./axiosClient";
 import { repositories } from "./apiRepos";
 
 export const useRepositories = () => {
@@ -12,7 +12,11 @@ export const useRepositories = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await axios.get(repositories);
+        const response = await apiClient.get(repositories)
+        if (!response.data || !response.data.length === 0) {
+          throw new Error("No data or invalid response");
+        }
+
         setData({
           state: "success",
           repositoriesData: response.data,
