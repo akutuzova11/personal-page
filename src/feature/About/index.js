@@ -3,7 +3,7 @@ import ImageSrc from "../../images/profilePic.png";
 import { AboutStyled, Image } from "./styled";
 import { Button } from "../Button";
 import { ReactComponent as Envelope } from "../../images/envelope.svg";
-import { aboutContent, footerContent } from "../../content";
+import { aboutContent } from "../../content";
 
 export const About = () => (
   <AboutStyled>
