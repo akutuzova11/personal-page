@@ -3,7 +3,6 @@ import ImageSrc from "../../images/profilePic.png";
 import { AboutStyled, Image } from "./styled";
 import { Button } from "../Button";
 import { ReactComponent as Envelope } from "../../images/envelope.svg";
-import { email } from "../../email";
 
 export const About = () => (
   <AboutStyled>
@@ -15,7 +14,7 @@ export const About = () => (
         title="Angelina Kutuzova"
         description="👩🏻‍💻🚀 With a solid background in Customer Success and a growing expertise in frontend development, I’m excited to bring my skills to new challenges. I’m currently looking for opportunities to contribute to innovative web projects."
       />
-      <Button href={`mailto:${email}`} aria-label="Hire me via email">
+      <Button href="#contact" aria-label="Navigate to contact section">
         <Envelope />
         Hire Me
       </Button>

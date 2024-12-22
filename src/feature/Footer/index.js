@@ -5,7 +5,7 @@ import { IconStyled } from "../IconLinks/index";
 import { FooterStyled, Icons } from "./styled";
 
 export const Footer = () => (
-  <FooterStyled>
+  <FooterStyled id="contact">
     <PersonalInformation
       caption="LET'S TALK"
       isFooter={true}
