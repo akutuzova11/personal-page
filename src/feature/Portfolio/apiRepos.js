@@ -1,1 +1,1 @@
-export const repositories = "https://api.github.com/users/akutuzova11/repos";
+export const repositories = "users/akutuzova11/repos";
