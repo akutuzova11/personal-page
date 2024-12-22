@@ -3,14 +3,15 @@ import { PersonalInformation } from "../PersonalInformation";
 import { socialMedia } from "../../socialMedia";
 import { IconStyled } from "../IconLinks/index";
 import { FooterStyled, Icons } from "./styled";
+import { footerContent } from "../../content";
 
 export const Footer = () => (
   <FooterStyled id="contact">
     <PersonalInformation
-      caption="LET'S TALK"
+      caption={footerContent.caption}
       isFooter={true}
       title={<a href={`mailto:${email}`}>{email}</a>}
-      description="Let’s make your ideas come to life! If you’re working on a website, dashboard, or mobile app and need some help, don’t hesitate to get in touch. I’d love to collaborate."
+      description={footerContent.description}
     />
     <Icons>
       {socialMedia.map(({ name, url, Icon }) => (
