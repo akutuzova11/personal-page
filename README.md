@@ -4,7 +4,7 @@ Welcome to my personal homepage, built with React.
 This project showcases my technical skills and offers a functional, responsive website where you can explore my work, skills, and contact details.
 
 &nbsp; 
-![](https://github.com/akutuzova11/personal-page/blob/main/readmi%20gif.gif)
+![](https://github.com/akutuzova11/personal-page/blob/main/readme.gif)
 
 ## Demo
 
