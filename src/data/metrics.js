@@ -3,6 +3,7 @@ export const mySkills = [
   "CSS Flex",
   "CSS Grid",
   "Error handling",
+  "Figma",
   "Git",
   "GitHub Pull Requests & Review",
   "HTML",
