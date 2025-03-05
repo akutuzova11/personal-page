@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { selectIsDark, toggleDark } from "./themeSlice";
+import { selectIsDark, toggleDark } from "../../redux/themeSlice";
 import { ReactComponent as SunLight } from "../../images/sunLight.svg";
 import { ReactComponent as SunDark } from "../../images/sunDark.svg";
 import { Wrapper, Button, Selector, Caption } from "./styled";

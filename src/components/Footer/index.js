@@ -1,9 +1,9 @@
-import { email } from "../../email";
-import { PersonalInformation } from "../PersonalInformation";
-import { socialMedia } from "../../socialMedia";
-import { IconStyled } from "../IconLinks/index";
+import { email } from "../../data/email";
+import { PersonalInformation } from "../../features/PersonalInformation";
+import { socialMedia } from "../../data/socialMedia";
+import { IconStyled } from "../IconLinks";
 import { FooterStyled, Icons } from "./styled";
-import { footerContent } from "../../content";
+import { footerContent } from "../../data/content";
 
 export const Footer = () => (
   <FooterStyled id="contact">

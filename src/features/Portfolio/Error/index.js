@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
-import { Button } from "../../Button";
-import { repositories } from "../apiRepos";
+import { Button } from "../../../components/Button";
+import { repositories } from "../../../api/apiRepos";
 import {
   Wrapper,
   Subwrapper,
@@ -9,7 +9,7 @@ import {
   ErrorIconLight,
   ErrorIconDark,
 } from "./styled";
-import { selectIsDark } from "../../ToggleMode/themeSlice";
+import { selectIsDark } from "../../../redux/themeSlice";
 
 export const Error = () => {
   const isDark = useSelector(selectIsDark);

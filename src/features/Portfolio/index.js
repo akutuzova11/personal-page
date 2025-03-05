@@ -1,10 +1,10 @@
-import { socialMedia } from "../../socialMedia";
+import { socialMedia } from "../../data/socialMedia";
 import { Loading } from "./Loading";
 import { ProjectsList } from "./ProjectsList";
 import { Wrapper, Header, Paragraph } from "./styled";
-import { useRepositories } from "./useRepositories";
+import { useRepositories } from "../../api/useRepositories";
 import { Error } from "./Error";
-import { IconLink } from "../IconLinks";
+import { IconLink } from "../../components/IconLinks";
 
 export const Portfolio = () => {
   const data = useRepositories();

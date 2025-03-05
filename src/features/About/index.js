@@ -1,9 +1,9 @@
 import { PersonalInformation } from "../PersonalInformation";
 import ImageSrc from "../../images/profilePic.png";
 import { AboutStyled, Image } from "./styled";
-import { Button } from "../Button";
+import { Button } from "../../components/Button";
 import { ReactComponent as Envelope } from "../../images/envelope.svg";
-import { aboutContent } from "../../content";
+import { aboutContent } from "../../data/content";
 
 export const About = () => (
   <AboutStyled>

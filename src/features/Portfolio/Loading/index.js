@@ -6,7 +6,7 @@ import {
   LoadingIconLight,
   Wrapper,
 } from "./styled";
-import { selectIsDark } from "../../ToggleMode/themeSlice";
+import { selectIsDark } from "../../../redux/themeSlice";
 
 export const Loading = () => {
   const isDark = useSelector(selectIsDark);
