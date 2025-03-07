@@ -2,7 +2,7 @@
   "name": "react-personal-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akutuzova11.github.io/personal-page/",
+  "homepage": "https://akutuzova11.github.io/react-personal-page/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
     "axios": "^1.7.9",
