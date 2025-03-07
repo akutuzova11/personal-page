@@ -8,7 +8,7 @@ This project showcases my technical skills and offers a functional, responsive w
 
 ## Demo
 
-https://akutuzova11.github.io/personal-page/
+https://akutuzova11.github.io/react-personal-page/
 
 ## Features
 
